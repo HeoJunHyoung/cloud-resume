@@ -72,83 +72,83 @@ content:
         description: |
           * Kafka, Debezium (CDC) 기반 분산 아키텍처 구조 설계
           
-- title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: ""
-        description: |
-          <div class="project-card">
-            <div class="project-card-header">
-              <a href="https://github.com/cld-3rd/final-team2-infra" class="project-title-link" target="_blank">GotEEgo (Cloud Infrastructure) - 맞춤형 서비스용 AWS EKS 인프라 구축</a>
-              <div class="project-card-date">2025.07.16 ~ 2025.08.24</div>
+  - title: Projects
+      layout: list
+      content:
+        - layout: top-middle
+          title: ""
+          description: |
+            <div class="project-card">
+              <div class="project-card-header">
+                <a href="https://github.com/cld-3rd/final-team2-infra" class="project-title-link" target="_blank">GotEEgo (Cloud Infrastructure) - 맞춤형 서비스용 AWS EKS 인프라 구축</a>
+                <div class="project-card-date">2025.07.16 ~ 2025.08.24</div>
+              </div>
+              <div class="project-card-subtitle">AWS 클라우드 인프라 설계 주도 및 Terraform 모듈 표준화 (Tech Lead / Architect)</div>
+              <div class="project-card-content">
+                <ul class="project-card-list">
+                  <li><b>멀티 AZ 3-Tier 네트워크 아키텍처 설계 [modules/vpc]:</b> High Availability(HA) 및 보안 격리를 위해 가용 영역을 교차하는 Public, Private, Isolated Database 서브넷 구조 설계 및 NAT Gateway 아웃바운드 라우팅 최적화</li>
+                  <li><b>EKS 클러스터 토폴로지 및 권한 설계 [modules/eks, modules/irsa]:</b> AWS Managed Node Group 기반의 클러스터 아키텍처를 수립하고, OIDC 공급자를 통한 IRSA(IAM Roles for Service Accounts) 구조를 설계하여 Pod 레벨의 최소 권한 제어 환경 가이드</li>
+                  <li><b>Edge 보안 및 인그레스 트래픽 라우팅 [modules/cloudfront, modules/alb]:</b> CloudFront OAC(Origin Access Control) 설정을 통해 S3 오리진 보안을 강화하고, ALB Ingress Controller 연동을 통한 동적 API 가용성 구조 설계</li>
+                  <li><b>Polyglot 스토리지 레이어 분리 프로비저닝 [modules/rds, modules/elasticache, modules/documentdb]:</b> 데이터 특성에 맞춘 안정적인 분산 저장을 위해 관계형(RDS), 세션/캐시(ElastiCache), 문서형(DocumentDB) 인프라의 격리 배치를 설계하고 IaC 구조 확립</li>
+                  <li><b>클라우드 가시성(Observability) 및 GitOps 체계 고도화 [modules/monitoring, modules/argocd]:</b> Prometheus/Grafana 인프라 내재화 및 K8s 워크로드 대시보드 템플릿 설계를 주도하여 인프라 관측성을 확보하고, ArgoCD 기반 GitOps 파이프라인 수립</li>
+                </ul>
+              </div>
             </div>
-            <div class="project-card-subtitle">AWS 클라우드 인프라 설계 주도 및 Terraform 모듈 표준화 (Tech Lead / Architect)</div>
-            <div class="project-card-content">
-              <ul class="project-card-list">
-                <li><b>멀티 AZ 3-Tier 네트워크 아키텍처 설계 [modules/vpc]:</b> High Availability(HA) 및 보안 격리를 위해 가용 영역을 교차하는 Public, Private, Isolated Database 서브넷 구조 설계 및 NAT Gateway 아웃바운드 라우팅 최적화</li>
-                <li><b>EKS 클러스터 토폴로지 및 권한 설계 [modules/eks, modules/irsa]:</b> AWS Managed Node Group 기반의 클러스터 아키텍처를 수립하고, OIDC 공급자를 통한 IRSA(IAM Roles for Service Accounts) 구조를 설계하여 Pod 레벨의 최소 권한 제어 환경 가이드</li>
-                <li><b>Edge 보안 및 인그레스 트래픽 라우팅 [modules/cloudfront, modules/alb]:</b> CloudFront OAC(Origin Access Control) 설정을 통해 S3 오리진 보안을 강화하고, ALB Ingress Controller 연동을 통한 동적 API 가용성 구조 설계</li>
-                <li><b>Polyglot 스토리지 레이어 분리 프로비저닝 [modules/rds, modules/elasticache, modules/documentdb]:</b> 데이터 특성에 맞춘 안정적인 분산 저장을 위해 관계형(RDS), 세션/캐시(ElastiCache), 문서형(DocumentDB) 인프라의 격리 배치를 설계하고 IaC 구조 확립</li>
-                <li><b>클라우드 가시성(Observability) 및 GitOps 체계 고도화 [modules/monitoring, modules/argocd]:</b> Prometheus/Grafana 인프라 내재화 및 K8s 워크로드 대시보드 템플릿 설계를 주도하여 인프라 관측성을 확보하고, ArgoCD 기반 GitOps 파이프라인 수립</li>
-              </ul>
+  
+        - layout: top-middle
+          title: ""
+          description: |
+            <div class="project-card">
+              <div class="project-card-header">
+                <a href="https://github.com/HeoJunHyoung/Linkfolio-manifest" class="project-title-link" target="_blank">LinkFolio (Kubernetes Orchestration) - 분산 클러스터 인프라 아키텍처</a>
+                <div class="project-card-date">2025.10.27 ~ 2025.12.12</div>
+              </div>
+              <div class="project-card-subtitle">On-Premise 환경의 K8s 클러스터 프로비저닝 및 MSA 플랫폼 인프라 운영</div>
+              <div class="project-card-content">
+                <ul class="project-card-list">
+                  <li><b>4-Node 로컬 클러스터 프로비저닝:</b> VirtualBox 가상화 환경에서 Ubuntu 기반 K8s 클러스터(Worker Node 3, Kafka 전용 Node 1)를 바닥부터 직접 구성하여 인프라 하드웨어 및 OS 레이어 이해도 확보</li>
+                  <li><b>쿠버네티스 선언적 리소스 관리:</b> Kustomize를 도입하여 복잡한 MSA 애플리케이션의 Base/Overlay 설정을 표준화하고, 다중 환경 배포 매니페스트 관리 효율성 극대화</li>
+                  <li><b>로컬 네트워크 환경 제약 극복:</b> 로컬 폐쇄망 클러스터의 외부 통신 한계를 ngrok 터널링 솔루션 아키텍처로 우회 설계하여, 외부 OAuth 2.0 인증 콜백 및 웹훅 엔드포인트 수신 인프라 확보</li>
+                  <li><b>이벤트 기반 분산 토폴로지 구축:</b> 서비스 간 비동기 메시징 메시지 유실 방지를 위해 SAGA 패턴 아키텍처 인프라 사양을 기획하고 Kafka 브로커 토폴로지 최적화</li>
+                </ul>
+              </div>
             </div>
-          </div>
-
-      - layout: top-middle
-        title: ""
-        description: |
-          <div class="project-card">
-            <div class="project-card-header">
-              <a href="https://github.com/HeoJunHyoung/Linkfolio-manifest" class="project-title-link" target="_blank">LinkFolio (Kubernetes Orchestration) - 분산 클러스터 인프라 아키텍처</a>
-              <div class="project-card-date">2025.10.27 ~ 2025.12.12</div>
+  
+        - layout: top-middle
+          title: ""
+          description: |
+            <div class="project-card">
+              <div class="project-card-header">
+                <a href="https://github.com/HeoJunHyoung/re-market" class="project-title-link" target="_blank">Re:Market (Performance Engineering) - 인프라 벤치마킹 및 모니터링</a>
+                <div class="project-card-date">2026.01.09 ~ 2026.01.24</div>
+              </div>
+              <div class="project-card-subtitle">인프라 스케일아웃(Scale-out) 시뮬레이션 및 부하 테스트 최적화</div>
+              <div class="project-card-content">
+                <ul class="project-card-list">
+                  <li><b>인프라 용량 산정 및 부하 시뮬레이션:</b> k6 부하 테스트 스크립트(load-test.js, cache-issue-test.js) 시나리오를 설계하여 대규모 트래픽 발생 시 인프라 한계 도출 및 시스템 수용량 검증</li>
+                  <li><b>데이터베이스 레이어 병목 탐지 및 최적화:</b> 스케일아웃 분산 환경을 가정한 데이터 동시성 제어 인프라 테스트 수행 및 HikariCP 커넥션 풀 최적화 수치 도출</li>
+                  <li><b>애플리케이션 메트릭 관측 인프라 구축:</b> Prometheus와 애플리케이션 메트릭(QueryCount, RequestContext)을 바인딩하여 비즈니스 트래픽 증가에 따른 인프라 자원 병목 지점 모니터링 체계 확립</li>
+                </ul>
+              </div>
             </div>
-            <div class="project-card-subtitle">On-Premise 환경의 K8s 클러스터 프로비저닝 및 MSA 플랫폼 인프라 운영</div>
-            <div class="project-card-content">
-              <ul class="project-card-list">
-                <li><b>4-Node 로컬 클러스터 프로비저닝:</b> VirtualBox 가상화 환경에서 Ubuntu 기반 K8s 클러스터(Worker Node 3, Kafka 전용 Node 1)를 바닥부터 직접 구성하여 인프라 하드웨어 및 OS 레이어 이해도 확보</li>
-                <li><b>쿠버네티스 선언적 리소스 관리:</b> Kustomize를 도입하여 복잡한 MSA 애플리케이션의 Base/Overlay 설정을 표준화하고, 다중 환경 배포 매니페스트 관리 효율성 극대화</li>
-                <li><b>로컬 네트워크 환경 제약 극복:</b> 로컬 폐쇄망 클러스터의 외부 통신 한계를 ngrok 터널링 솔루션 아키텍처로 우회 설계하여, 외부 OAuth 2.0 인증 콜백 및 웹훅 엔드포인트 수신 인프라 확보</li>
-                <li><b>이벤트 기반 분산 토폴로지 구축:</b> 서비스 간 비동기 메시징 메시지 유실 방지를 위해 SAGA 패턴 아키텍처 인프라 사양을 기획하고 Kafka 브로커 토폴로지 최적화</li>
-              </ul>
+  
+        - layout: top-middle
+          title: ""
+          description: |
+            <div class="project-card">
+              <div class="project-card-header">
+                <a href="https://github.com/cld-3rd/team1-infra" class="project-title-link" target="_blank">Vinyl Groove (Infra Tuning) - 분산 인프라 스트레스 테스트</a>
+                <div class="project-card-date">2025.07.07 ~ 2025.07.14</div>
+              </div>
+              <div class="project-card-subtitle">컨테이너 기반 인프라 표준화 및 분산 캐시/락 스토리지 튜닝</div>
+              <div class="project-card-content">
+                <ul class="project-card-list">
+                  <li><b>인프라 자원 격리 및 컨테이너 표준화:</b> Docker-Compose 아키텍처 설계를 주도하여 하부 인프라 종속성을 제거하고, 환경 변화에 유연한 컨테이너 기반 인프라 파이프라인 표준 수립</li>
+                  <li><b>Redis 분산 데이터 레이어 구조 설계:</b> 고가용성을 고려한 Redis Sorted Set 랭킹 구조 및 동시성 차단을 위한 Redisson 분산 락 메모리 자원 아키텍처 기획</li>
+                  <li><b>오리진 스토리지 연동 아키텍처:</b> 대용량 미디어 파일 처리를 위한 클라우드 파일 스토리지(AWS S3) 아키텍처 백엔드 결합 가이드 설계</li>
+                </ul>
+              </div>
             </div>
-          </div>
-
-      - layout: top-middle
-        title: ""
-        description: |
-          <div class="project-card">
-            <div class="project-card-header">
-              <a href="https://github.com/HeoJunHyoung/re-market" class="project-title-link" target="_blank">Re:Market (Performance Engineering) - 인프라 벤치마킹 및 모니터링</a>
-              <div class="project-card-date">2026.01.09 ~ 2026.01.24</div>
-            </div>
-            <div class="project-card-subtitle">인프라 스케일아웃(Scale-out) 시뮬레이션 및 부하 테스트 최적화</div>
-            <div class="project-card-content">
-              <ul class="project-card-list">
-                <li><b>인프라 용량 산정 및 부하 시뮬레이션:</b> k6 부하 테스트 스크립트(load-test.js, cache-issue-test.js) 시나리오를 설계하여 대규모 트래픽 발생 시 인프라 한계 도출 및 시스템 수용량 검증</li>
-                <li><b>데이터베이스 레이어 병목 탐지 및 최적화:</b> 스케일아웃 분산 환경을 가정한 데이터 동시성 제어 인프라 테스트 수행 및 HikariCP 커넥션 풀 최적화 수치 도출</li>
-                <li><b>애플리케이션 메트릭 관측 인프라 구축:</b> Prometheus와 애플리케이션 메트릭(QueryCount, RequestContext)을 바인딩하여 비즈니스 트래픽 증가에 따른 인프라 자원 병목 지점 모니터링 체계 확립</li>
-              </ul>
-            </div>
-          </div>
-
-      - layout: top-middle
-        title: ""
-        description: |
-          <div class="project-card">
-            <div class="project-card-header">
-              <a href="https://github.com/cld-3rd/team1-infra" class="project-title-link" target="_blank">Vinyl Groove (Infra Tuning) - 분산 인프라 스트레스 테스트</a>
-              <div class="project-card-date">2025.07.07 ~ 2025.07.14</div>
-            </div>
-            <div class="project-card-subtitle">컨테이너 기반 인프라 표준화 및 분산 캐시/락 스토리지 튜닝</div>
-            <div class="project-card-content">
-              <ul class="project-card-list">
-                <li><b>인프라 자원 격리 및 컨테이너 표준화:</b> Docker-Compose 아키텍처 설계를 주도하여 하부 인프라 종속성을 제거하고, 환경 변화에 유연한 컨테이너 기반 인프라 파이프라인 표준 수립</li>
-                <li><b>Redis 분산 데이터 레이어 구조 설계:</b> 고가용성을 고려한 Redis Sorted Set 랭킹 구조 및 동시성 차단을 위한 Redisson 분산 락 메모리 자원 아키텍처 기획</li>
-                <li><b>오리진 스토리지 연동 아키텍처:</b> 대용량 미디어 파일 처리를 위한 클라우드 파일 스토리지(AWS S3) 아키텍처 백엔드 결합 가이드 설계</li>
-              </ul>
-            </div>
-          </div>
 
   - title: Education
     layout: list
