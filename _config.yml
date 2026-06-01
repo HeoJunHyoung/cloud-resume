@@ -54,23 +54,22 @@ content:
       - layout: left
         title: Cloud Infrastructure
         description: |
-          * **AWS:** EC2, VPC, ALB, Route53, EKS, S3, EBS, EFS, RDS (MySQL/PostgreSQL), ElastiCache (Redis), DocumentDB, IAM (IRSA)
-          * **IaC:** Terraform (Module Architecture 설계 및 표준화)
+          * EC2, VPC, ALB, Route53, EKS, S3, CloudFront, EBS, EFS, RDS, ElastiCache, DocumentDB, IAM (IRSA)
+          * Terraform (Module Architecture 설계 및 표준화)
       - layout: left
         title: Container & Orchestration
         description: |
-          * **Docker:** 컨테이너 빌드 및 가상 인프라 환경 표준화
-          * **Kubernetes:** K8s 클러스터 프로비저닝 (On-Premise / EKS), Kustomize 리소스 관리
+          * Docker, Kubernetes (Local Cluster / EKS), Kustomize
       - layout: left
         title: DevOps & Observability
         description: |
-          * **CI/CD & GitOps:** ArgoCD (Helm), GitHub Actions Pipeline
-          * **Monitoring:** Prometheus, Grafana, Micrometer
-          * **Performance Testing:** k6 (Scenario-based Load Testing)
+          * GitHub Actions, ArgoCD (GitOps)
+          * Prometheus, Grafana
+          * k6 (Scenario-based Load Testing)
       - layout: left
         title: Message Broker
         description: |
-          * Kafka, Debezium (CDC) 기반 분산 아키텍처 구조 설계
+          * Kafka, Debezium (CDC) 기반 분산 토폴로지 구조 설계
           
   - title: Projects
     layout: list
@@ -80,7 +79,7 @@ content:
         description: |
           <div class="project-card">
             <div class="project-card-header">
-              <a href="https://github.com/cld-3rd/final-team2-infra" class="project-title-link" target="_blank">GotEEgo (Cloud Infrastructure) - 맞춤형 서비스용 AWS EKS 인프라 구축</a>
+              <a href="https://github.com/heojunhyoung/goteego-backend" class="project-title-link" target="_blank">GotEEgo (Cloud Infrastructure) - 맞춤형 서비스용 AWS EKS 인프라 구축</a>
               <div class="project-card-date">2025.07.16 ~ 2025.08.24</div>
             </div>
             <div class="project-card-subtitle">AWS 클라우드 인프라 설계 주도 및 Terraform 모듈 표준화 (Tech Lead / Architect)</div>
@@ -100,7 +99,7 @@ content:
         description: |
           <div class="project-card">
             <div class="project-card-header">
-              <a href="https://github.com/HeoJunHyoung/Linkfolio-manifest" class="project-title-link" target="_blank">LinkFolio (Kubernetes Orchestration) - 분산 클러스터 인프라 아키텍처</a>
+              <a href="https://github.com/HeoJunHyoung/Linkfolio-backend" class="project-title-link" target="_blank">LinkFolio (Kubernetes Orchestration) - 분산 클러스터 인프라 아키텍처</a>
               <div class="project-card-date">2025.10.27 ~ 2025.12.12</div>
             </div>
             <div class="project-card-subtitle">On-Premise 환경의 K8s 클러스터 프로비저닝 및 MSA 플랫폼 인프라 운영</div>
@@ -137,7 +136,7 @@ content:
         description: |
           <div class="project-card">
             <div class="project-card-header">
-              <a href="https://github.com/cld-3rd/team1-infra" class="project-title-link" target="_blank">Vinyl Groove (Infra Tuning) - 분산 인프라 스트레스 테스트</a>
+              <a href="https://github.com/HeoJunHyoung/vinyl-groove-backend" class="project-title-link" target="_blank">Vinyl Groove (Infra Tuning) - 분산 인프라 스트레스 테스트</a>
               <div class="project-card-date">2025.07.07 ~ 2025.07.14</div>
             </div>
             <div class="project-card-subtitle">컨테이너 기반 인프라 표준화 및 분산 캐시/락 스토리지 튜닝</div>
