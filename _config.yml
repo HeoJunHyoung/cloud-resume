@@ -1,8 +1,8 @@
 # Site Settings
-repository: HeoJunHyoung/resume-cloud
+repository: HeoJunHyoung/cloud-resume   # resume-cloud를 cloud-resume으로 변경
 version: 2
 url: "https://heojunhyoung.github.io"
-baseurl: "/resume-cloud"
+baseurl: "/cloud-resume"                # resume-cloud를 cloud-resume으로 변경
 
 # Latest Updated
 last_updated: 2026.06.01
